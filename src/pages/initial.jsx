@@ -33,9 +33,7 @@ function Initial() {
         </div>
       </div>
       <section />
-      <div class="news-container">
-        <NewsCardSmall />
-      </div>
+      <NewsCardSmall />
       <section />
       <GrasswingFooter />
     </div>
