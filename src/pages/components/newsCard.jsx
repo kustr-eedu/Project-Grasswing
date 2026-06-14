@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function NewsCard() {
   const API_KEY = "pub_e6648db301804d4c8f237b51e690290b";
