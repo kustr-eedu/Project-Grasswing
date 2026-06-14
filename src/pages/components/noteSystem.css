@@ -1,0 +1,5 @@
+.task-creator {
+    display: flex;
+    background-color: rgba(59, 0, 30, 0.67);
+    color: rgba(204, 204, 204, 0.67);
+}
