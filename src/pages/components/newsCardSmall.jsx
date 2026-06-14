@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import "./newsCard.css";
 
 function NewsCardSmall() {
   const API_KEY = "pub_e6648db301804d4c8f237b51e690290b";
@@ -14,17 +15,19 @@ function NewsCardSmall() {
   };
 
   return (
-    <div>
-      <div>
-        <img placeholder="Image from the news" />
+    <div class="news-container">
+      <div class="news-card">
+        <img alt="Image from the news" />
         <a>Lorem ipsum dolor sit amet eiusmod tempor</a>
       </div>
-      <div>
-        <img placeholder="Image from the news" />
+      <section />
+      <div class="news-card">
+        <img alt="Image from the news" />
         <a>Lorem ipsum dolor sit amet eiusmod tempor</a>
       </div>
-      <div>
-        <img placeholder="Image from the news" />
+      <section />
+      <div class="news-card">
+        <img alt="Image from the news" />
         <a>Lorem ipsum dolor sit amet eiusmod tempor</a>
       </div>
     </div>
